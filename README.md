@@ -1,1 +1,1 @@
-My resume
+Thank you for visiting my resume project!
