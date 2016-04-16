@@ -1,3 +1,5 @@
+'use strict';
+
 /**
 * @description Declare variables of bio, work, projects and education
 */
@@ -46,7 +48,7 @@ var bio = {
       $("#skills").append(formattedSkill);
     });
   }
-}
+};
 
 var work = {
   "jobs" : [
@@ -82,7 +84,7 @@ var work = {
 
       $(".work-entry").append(formattedEmployer);
 
-      var formattedDates = HTMLworkDates.replace("%data%", job.dates)
+      var formattedDates = HTMLworkDates.replace("%data%", job.dates);
 
       $(".work-entry:last").append(formattedDates);
 
@@ -92,7 +94,7 @@ var work = {
 
     });
   }
-}
+};
 
 var projects = {
   "projects" : [
@@ -138,7 +140,7 @@ var projects = {
     });
 
   }
-}
+};
 
 var education = {
   "schools" : [
@@ -147,7 +149,7 @@ var education = {
       "location": "Tokyo, Japan",
       "degree": "Bachelor",
       "majors": ["Computer Science"],
-      "dates": "03/2004",
+      "date": "03/2004",
       "url": "http://www.sfc.keio.ac.jp/en/"
     }
   ],
@@ -155,7 +157,7 @@ var education = {
     {
       "title": "Front-End Web Developer",
       "school": "Udacity",
-      "dates": 2016,
+      "date": "2016",
       "url": "https://www.udacity.com/"
     }
   ],
@@ -170,7 +172,7 @@ var education = {
   
       $(".education-entry:last").append(formattedSchoolName);
   
-      var formattedSchoolDates = HTMLschoolDates.replace("%data%", school.dates);
+      var formattedSchoolDates = HTMLschoolDates.replace("%data%", school.date);
   
       $(".education-entry:last").append(formattedSchoolDates);
   
@@ -195,7 +197,7 @@ var education = {
   
       $(".education-entry:last").append(formattedonlineTitle);
   
-      var formatteonlineDates = HTMLonlineDates.replace("%data%", onlineCourse.dates);
+      var formatteonlineDates = HTMLonlineDates.replace("%data%", onlineCourse.date);
   
       $(".education-entry:last").append(formatteonlineDates);
   
@@ -206,7 +208,7 @@ var education = {
     });
 
   }
-}
+};
 
 /**
 * @description Display google maps
