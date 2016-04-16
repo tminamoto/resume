@@ -24,32 +24,38 @@ h6 {
   padding: 0 5%;
 }
 
+
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  font-family: 'Oswald', sans-serif;
+/*   color: #f5a623;*/
+  color: #009;
   line-height: 48px;
   display: inline;
 }
 
 h2 {
-  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+    font-weight: bold;
   font-size: 24px;
-  color: #999;
-  line-height: 29px;
+/*   color: #999; */
+  color: #009;
+ht  line-height: 29px;
   padding: 10px;
 }
 
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
+/*   color: #000; */
+  color: #009;
   line-height: 22px;
 }
 
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4a4a4a;
+  color: #333;
   line-height: 17px;
 }
 
@@ -61,6 +67,9 @@ h5 {
 
 }
 
+.role-text {
+  font-family: 'Oswald', sans-serif;
+}
 
 .date-text {
   font-style: italic;
@@ -95,41 +104,57 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #fff;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
+/*   color: #f5ae23; */
+  color: #fff;
   display: none;
 }
 
-.orange {
-  background-color: #f5ae23;
+/* added start */
+
+.white {
+  background-color: #fff;
+  padding-bottom: 10px;
+  clear:both;
 }
 
-.orange-text {
-  color: #f5ae23;
+.white2 {
+  background-color: #fff;
 }
+
+.turquoise {
+  background-color: #9ff;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.turquoise2 {
+  background-color: #9ff;
+}
+
+.navy-text {
+  color: #009;
+  font-weight: bold;
+}
+
+.silver {
+  background-color: #ccc;
+}
+/* added end */
 
 .white-text {
   font-weight: bold;
   color: #fff;
 }
 
-.gray {
-  background-color: #f3f3f3;
-  padding-bottom: 10px;
-  clear:both;
-}
-
-.dark-gray {
-  background-color: #4a4a4a;
-}
-
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+/*   background-color: #484848; */
+  background-color: #ccc;
 }
 
 .flex-box {
@@ -201,6 +226,7 @@ span {
 }
 
 #mapDiv {
+  background-color: #9ff;
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
